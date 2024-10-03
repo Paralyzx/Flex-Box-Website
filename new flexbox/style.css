@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4U-NLlZ19mh5EFTnv6Ix1UzcpsaKCCf2aCofHHxaAxBIDNROMYMudGYobP-uU4jCmjZ2RVuTeYL9e_ctNnY4WCOAptvS7v-_NUeB2hhflSq3QFPTz0CgSS0OBfSlocLxO9CyKHwz8S93xmxnUNxA6LDPc2o3V5LtoyM9D4FQFkaFRPvr8T9D1CyZS-A/s3840/BATMAN-WALLPAPER-4K-632023.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10% ;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 2rem;
+     color: #cfcfcf;
+     text-decoration: none;
+     font-weight: 700;
+     border: 2x rgb(156, 156, 156);
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.navbar a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.15rem;
+    color: #c7c7c7;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+
+/* BREAKPOINTS */ 
+@media (max-width: 992px) {
+    .header
+    {
+        padding: 1.3rem 5%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .icons {
+        display: block
+    }
+}
+
+.pp {
+  border-radius: 50%;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px grey;
+  padding: 10px;
+  margin-top: 100%;
+  margin-left: 50%;
+}
+
+.nama {
+    color: burlywood;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
